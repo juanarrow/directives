@@ -1,0 +1,7 @@
+{
+  "name": "directives",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
