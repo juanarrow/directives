@@ -7,11 +7,11 @@ Aplicación en ionic/agular que permite cambiar el color de fondo de un elemento
 
 Al añadir el atributo appHihgLight al elemento del DOM este reacciona cambiando el color de fondo al pasar el ratón por encima del mismo
 ej:
-  \<p appHighLight>Texto\</p\> #Por defecto el color de fondo es amarillo si no se indica
-  <p appHighLight="green"></p> #Configura verde como color de fondo al pasar el ratón por encima
-  <p appHighLight="green" defaultColor="yellow"></p> #Configura el color de fondo como verde
-  <p appHighLight defaultColor="yellow"></p> #Al no configurar el color de HighLight se configura amarillo como color de fondo por defecto
-  <p defaultColor="yellow"></p> #No hace nada puesto que no tiene aplicada la directiva appHighLight
+  \<p appHighLight\>Texto\</p\> #Por defecto el color de fondo es amarillo si no se indica
+  \<p appHighLight="green"\>\</p\> #Configura verde como color de fondo al pasar el ratón por encima
+  \<p appHighLight="green" defaultColor="yellow"\>\</p\> #Configura el color de fondo como verde
+  \<p appHighLight defaultColor="yellow"\>\</p\> #Al no configurar el color de HighLight se configura amarillo como color de fondo por defecto
+  \<p defaultColor="yellow"\>\</p\> #No hace nada puesto que no tiene aplicada la directiva appHighLight
   
   
 
